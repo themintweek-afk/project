@@ -8,7 +8,7 @@ from aiogram.types import InlineKeyboardButton
 # --- КОНФИГУРАЦИЯ ---
 API_TOKEN = '8200955458:AAFxaLvxWWIf80Oow-H2bBAz6esY5YOuSz4'
 ADMIN_ID = '8353076802' # Твой личный ID
-CHANNEL_ID = '-1001234567890' # ID твоего канала
+CHANNEL_ID = '-1003604960312' # ID твоего канала
 
 logging.basicConfig(level=logging.INFO)
 
