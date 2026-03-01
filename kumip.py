@@ -43,7 +43,7 @@ async def handle_anon_content(message: types.Message):
 
 # Обработка кнопок модерации
 @dp.callback_query(F.data.in_({"approve", "reject"}))
-async def process_moderation(callback: types.Callback_query):
+async def process_moderation(callback: types.CallbackQuery):
     # Если нажали "Опубликовать"
     if callback.data == "approve":
         # Копируем сообщение из чата админа прямо в канал (без кнопок)
